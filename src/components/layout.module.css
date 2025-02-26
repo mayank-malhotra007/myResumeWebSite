@@ -1,0 +1,59 @@
+
+.container {
+  display: flex; /* Enables a flexbox layout */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.sidebar {
+  width: 170px; /* Adjust width as needed */
+  background-color: #D8BFD8; /* Sidebar background */
+  color: #4B0082; /* Text color */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.sidebar p {
+font-weight: bold;
+
+
+}
+
+.profileImage {
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  border: 2px solid white;
+
+}
+
+.sidebar a {
+
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.sidebar a:hover {
+  text-decoration: none;
+}
+
+
+.mainContent {
+  flex: 1; /* Takes the remaining space */
+  padding: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #4B0082;
+}
+
