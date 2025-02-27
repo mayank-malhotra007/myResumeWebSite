@@ -2,10 +2,11 @@
 .container {
   display: flex; /* Enables a flexbox layout */
   height: 100vh; /* Full height of the viewport */
+  
 }
 
 .sidebar {
-  width: 170px; /* Adjust width as needed */
+  width: 300px; /* Adjust width as needed */
   background-color: #D8BFD8; /* Sidebar background */
   color: #4B0082; /* Text color */
   padding: 20px;
@@ -16,23 +17,26 @@
   text-align: center;
   height: 100vh;
   padding-top: 30px;
+  
+  
 }
 
 .sidebar p {
 font-weight: bold;
+font-size: larger;
 
 
 }
 
 .profileImage {
 
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50px;
   object-fit: cover;
   margin-bottom: 30px;
-  margin-top: 80px;
-  border: 2px solid white;
+  margin-top: 100px;
+  
 
 }
 
@@ -41,6 +45,7 @@ font-weight: bold;
   color:white;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 
@@ -53,7 +58,37 @@ font-weight: bold;
   flex: 1; /* Takes the remaining space */
   padding: 20px;
   text-align: center;
-  text-decoration: underline;
   color: #4B0082;
+  font-family: monospace;
+  font-size: larger;
 }
 
+
+.experience {
+  text-align: left;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top:30px;
+  font-family: monospace;
+  font-size: large;
+
+}
+
+.headingLine {
+  border: none;
+  height: 2px;  /* Thickness of the line */
+  background-color: black; /* Color of the line */
+  width: 100%; /* Full width */
+  margin-top: 5px;
+}
+
+.mainContent h1 {
+  display: inline-block;
+  border-bottom: 3px solid #4B0082; /* Creates an underline effect */
+  padding-bottom: 20px;
+  width:100%;
+}
+
+.whiteText {
+  color: white;
+}
