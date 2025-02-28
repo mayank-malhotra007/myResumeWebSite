@@ -1,23 +1,25 @@
 
 .container {
   display: flex; /* Enables a flexbox layout */
-  height: 100vh; /* Full height of the viewport */
-  
+  /*height: 100vh;*/ /* Full height of the viewport */
+  align-items: stretch;
+  height: auto;
+  min-height: 100vh;
 }
 
 .sidebar {
   width: 300px; /* Adjust width as needed */
-  background-color: #D8BFD8; /* Sidebar background */
-  color: #4B0082; /* Text color */
+  background-color: #2f3d87; /* Sidebar background */
+  color: #d0cfdc; /* Text color */
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 30px;
-  
+  flex: 0 0 300px;
   
 }
 
@@ -58,7 +60,7 @@ font-size: larger;
   flex: 1; /* Takes the remaining space */
   padding: 20px;
   text-align: center;
-  color: #4B0082;
+  color: #2f3d87;
   font-family: monospace;
   font-size: larger;
 }
